@@ -9,7 +9,7 @@ end
 end
 
 
-#multiple conditions on one line (condition 1 ? )
+#multiple conditions on one line (condition 1 ? ifTrue " condition 2? ifTrue : ifFalse")
 def not_safe?(speed)
 	speed < 40  ? true : speed > 60 ? true : false 
 end
